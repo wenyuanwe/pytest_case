@@ -12,6 +12,9 @@ def leizu():
 def che():
     print('第一次运行测试代码')
     os.system('pytest -m che --alluredir ./allure_report')
+    
+def che001():
+    print('第二次运行测试代码')
 
 if __name__ == '__main__':
     che()
